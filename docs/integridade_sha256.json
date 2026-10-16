@@ -1,0 +1,20 @@
+{
+  "data/cases.json": "5866d93c30c72de27ba73ce4419f6b78599a406fc06693c5003c4f731272af39",
+  "data/coverage_costs.json": "8f627f796dfdbc8ba7cfc9a9c405dea4f15114d2f8cc2a5fa3d9d76b9aab7064",
+  "data/fault_catalog.json": "236895ee2d50239ff7b250d650e44c155d5d1a2b11139b50adf8a6586d653206",
+  "data/fault_matrix.json": "7ac510bead4a7f45a4a9d7fbd42bc5b34a63faa4d02a969d49a66f75ce74a96b",
+  "data/timing_samples.csv": "68ee514da5c339a8c6944d13b983ad774fa288a865f15e7d28118a9b18aa1b4b",
+  "results/environment.json": "a167071d188900bc79b8eeaed8e75df0cec9d85d858447843a33e9dad1fce93a",
+  "results/fits.json": "7a90254ba5d24e9ee3b46e92463878ad61fe480b2220397409308f05204eefec",
+  "results/orders.json": "d8f6edda6147195d8a2e17e8f92b75447d4b0c2cf678e4c028a3345be10eb833",
+  "results/raw_results.csv": "ad20eb3827e910f7b9b7bb16f691db9e2911cae8fbb86068f2183b9aba6799cb",
+  "results/report.json": "d86e10ca4d7d9a485b07dbd8c43398023e257da677f3a230c592ce26559ccd0f",
+  "results/summary.csv": "0b53698a580f2805b4c517b7de0c54ccaef3bb91bd56ab12641235e1c1fcb20c",
+  "src/__init__.py": "804a15ced706d51bc946635d37b722f5fcdf779433ccf7d7b902f1177da4e840",
+  "src/cases.py": "cbc37ca3dcbfa16c106f5afcc2f73679fc1ae59b9582af7452a4eab87721320b",
+  "src/metrics.py": "e6f34e1084a35da56483ee761eddc75a9c078ad4cb0108478a21b7dbd1dcf772",
+  "src/mutations.py": "985cd54e9e99adfe307af87143349ffbf715a4b02713398ae622b89faeaa3266",
+  "src/prioritizers.py": "b7e66813e89a74f2a53d806a2e69b612283e49a1c35bf726e3c830f96870b558",
+  "src/subject.py": "ff9ce6a4edea2097cb3e2bd8f374f56f904122dc639075c4655965f7dd2555fb",
+  "tests/test_methods.py": "9f6bd4130e164bb379f1e6ec5d42973c33bd16bb9d9b330b7a05ec20da3ee9b8"
+}

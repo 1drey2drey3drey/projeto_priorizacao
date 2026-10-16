@@ -1,0 +1,21 @@
+{
+  "testes_automatizados": 6,
+  "testes_aprovados": 6,
+  "casos_gerados": 567,
+  "defeitos_detectaveis_na_suite_completa": 18,
+  "configuracoes": 300,
+  "artigo_parcial_paginas": 5,
+  "artigo_completo_paginas": 10,
+  "matriz_pdf_paginas": 14,
+  "slides": 12,
+  "fontes_artigo": 12,
+  "artigos_recentes_2022": 3,
+  "sistema": "protótipo artificial MiniPedidos",
+  "execucao_nativa_powerpoint_testada": false,
+  "pendencias": [
+    "autoria e contatos",
+    "validação de leitura pessoal",
+    "reprodução pelos autores",
+    "URL de repositório público"
+  ]
+}

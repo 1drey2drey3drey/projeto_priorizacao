@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+artigo/*.aux
+artigo/*.log
+artigo/*.out
+artigo/*.blg
+*.inspect.ndjson

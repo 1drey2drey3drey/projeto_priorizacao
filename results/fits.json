@@ -1,0 +1,32 @@
+[
+  {
+    "strategy": "original",
+    "loglog_exponent": 0.35487461203284704,
+    "r2_loglog": 0.946063579963906
+  },
+  {
+    "strategy": "random",
+    "loglog_exponent": 0.6721467198794924,
+    "r2_loglog": 0.9812951013438638
+  },
+  {
+    "strategy": "fastest",
+    "loglog_exponent": 1.0320199530093683,
+    "r2_loglog": 0.9980433581333537
+  },
+  {
+    "strategy": "total",
+    "loglog_exponent": 1.1398144093448124,
+    "r2_loglog": 0.9980603542305986
+  },
+  {
+    "strategy": "additional",
+    "loglog_exponent": 1.9958987996343145,
+    "r2_loglog": 0.9999566883118262
+  },
+  {
+    "strategy": "cost_aware",
+    "loglog_exponent": 1.99592595521859,
+    "r2_loglog": 0.9998815907447719
+  }
+]

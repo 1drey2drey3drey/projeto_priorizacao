@@ -1,0 +1,21 @@
+"""Defeitos semeados manualmente: um patch isolado em cada versão."""
+MUTATIONS = [
+ ("F01","Limite do subtotal", "if subtotal < 0:","if subtotal <= 0:"),
+ ("F02","Percentual do associado", "subtotal * 5 // 100","subtotal * 6 // 100"),
+ ("F03","Limite do cupom percentual", "base >= 10000","base > 10000"),
+ ("F04","Valor do cupom fixo", "min(base, 500)","min(base, 400)"),
+ ("F05","Percentual do cupom", "base * 10 // 100","base * 9 // 100"),
+ ("F06","Limite de frete grátis", "subtotal >= 20000","subtotal > 20000"),
+ ("F07","Região do frete grátis", 'region == "local" and not express','region == "regional" and not express'),
+ ("F08","Taxa expressa", "cost += 1200","cost += 1000"),
+ ("F09","Peso excedente", "weight_kg - 2","weight_kg - 1"),
+ ("F10","Frete local", '"local": 800','"local": 900'),
+ ("F11","Estoque exatamente suficiente", "if quantity > stock:","if quantity >= stock:"),
+ ("F12","Saldo de estoque", "return stock - quantity","return stock + quantity"),
+ ("F13","Quantidade zero", "quantity <= 0","quantity < 0"),
+ ("F14","Item gratuito", "if price < 0 or weight <= 0:","if price <= 0 or weight <= 0:"),
+ ("F15","Arredondamento do peso", "(grams + 999) // 1000","grams // 1000"),
+ ("F16","Subtotal por quantidade", "subtotal += price * quantity","subtotal += price"),
+ ("F17","Adição do frete", "return net + shipping,","return net - shipping,"),
+ ("F18","Pedido vazio", 'raise ValueError("pedido vazio")','return (0, 0, 0, 0, 0)'),
+]

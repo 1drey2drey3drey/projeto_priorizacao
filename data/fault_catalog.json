@@ -1,0 +1,146 @@
+[
+  {
+    "id": "F01",
+    "description": "Limite do subtotal",
+    "old": "if subtotal < 0:",
+    "new": "if subtotal <= 0:",
+    "detecting_tests": 15,
+    "sha256": "694e68c439ae0a59513267a6666500f41da60951dbaaf75304316ce5bf46d455"
+  },
+  {
+    "id": "F02",
+    "description": "Percentual do associado",
+    "old": "subtotal * 5 // 100",
+    "new": "subtotal * 6 // 100",
+    "detecting_tests": 149,
+    "sha256": "264e31478b1ff81dd0b03a0ca13d749b20e2834fa13787fad089e096bbcba7d6"
+  },
+  {
+    "id": "F03",
+    "description": "Limite do cupom percentual",
+    "old": "base >= 10000",
+    "new": "base > 10000",
+    "detecting_tests": 2,
+    "sha256": "4bd4d731327539a447f4c946913e17eefaeb0087ce8b697144b97f6b3c4498f2"
+  },
+  {
+    "id": "F04",
+    "description": "Valor do cupom fixo",
+    "old": "min(base, 500)",
+    "new": "min(base, 400)",
+    "detecting_tests": 99,
+    "sha256": "dc2af5c5dbd9bf1b4c92fe520c73345c8395d0bce672ad09025cdbe01333c44d"
+  },
+  {
+    "id": "F05",
+    "description": "Percentual do cupom",
+    "old": "base * 10 // 100",
+    "new": "base * 9 // 100",
+    "detecting_tests": 80,
+    "sha256": "39f2b95c71ce48b7bcee17572f46d332b0d3de004e7bb11dd2f53fc9d2a87791"
+  },
+  {
+    "id": "F06",
+    "description": "Limite de frete grátis",
+    "old": "subtotal >= 20000",
+    "new": "subtotal > 20000",
+    "detecting_tests": 4,
+    "sha256": "02fa41f7b2686ea98fb5f145ce75bd9a54054cad387954d89e70f44d4be3e7ee"
+  },
+  {
+    "id": "F07",
+    "description": "Região do frete grátis",
+    "old": "region == \"local\" and not express",
+    "new": "region == \"regional\" and not express",
+    "detecting_tests": 81,
+    "sha256": "be6c7b3c7ab6f186ed675d253a18a5ec9724280baaa788d8fc2e4961d971db11"
+  },
+  {
+    "id": "F08",
+    "description": "Taxa expressa",
+    "old": "cost += 1200",
+    "new": "cost += 1000",
+    "detecting_tests": 165,
+    "sha256": "d06e835f8f679e8e1b5036161a564b6dbf8dd501dfa595edc299f7d14db0a53a"
+  },
+  {
+    "id": "F09",
+    "description": "Peso excedente",
+    "old": "weight_kg - 2",
+    "new": "weight_kg - 1",
+    "detecting_tests": 251,
+    "sha256": "e8eff2ed865cdda5de2556a0b5a9f150c1531b950dc5e2a4924d5fec48448253"
+  },
+  {
+    "id": "F10",
+    "description": "Frete local",
+    "old": "\"local\": 800",
+    "new": "\"local\": 900",
+    "detecting_tests": 74,
+    "sha256": "08a35b439bae33b3a8ae14fbc33870a34fc37782610864e3be01c3265951e6fc"
+  },
+  {
+    "id": "F11",
+    "description": "Estoque exatamente suficiente",
+    "old": "if quantity > stock:",
+    "new": "if quantity >= stock:",
+    "detecting_tests": 4,
+    "sha256": "8f82c3877d30f3f07b9a4d3b152b3beae55311e3faff488c9ca75d63f672c72c"
+  },
+  {
+    "id": "F12",
+    "description": "Saldo de estoque",
+    "old": "return stock - quantity",
+    "new": "return stock + quantity",
+    "detecting_tests": 251,
+    "sha256": "289e29af395d7b45509d6c5ebcdbcd86aa34eb292ed303cfb18047e13792dbbd"
+  },
+  {
+    "id": "F13",
+    "description": "Quantidade zero",
+    "old": "quantity <= 0",
+    "new": "quantity < 0",
+    "detecting_tests": 5,
+    "sha256": "cbb21ce4cff5378fe0ba83030c222432a528813bed00aedc1b4d803b953d29be"
+  },
+  {
+    "id": "F14",
+    "description": "Item gratuito",
+    "old": "if price < 0 or weight <= 0:",
+    "new": "if price <= 0 or weight <= 0:",
+    "detecting_tests": 174,
+    "sha256": "5138405250ba1edbe02c7f01def81e829c02f493ee587785018401296ae0009a"
+  },
+  {
+    "id": "F15",
+    "description": "Arredondamento do peso",
+    "old": "(grams + 999) // 1000",
+    "new": "grams // 1000",
+    "detecting_tests": 186,
+    "sha256": "94632ce9b4a94538c8c85f6760331d7c2bc0e8fdff396b1a96c273e49f91b60c"
+  },
+  {
+    "id": "F16",
+    "description": "Subtotal por quantidade",
+    "old": "subtotal += price * quantity",
+    "new": "subtotal += price",
+    "detecting_tests": 221,
+    "sha256": "1a520c4d7b7fda40fdf2d443a37b91e44e302a76b54b885593adc149f2de11c0"
+  },
+  {
+    "id": "F17",
+    "description": "Adição do frete",
+    "old": "return net + shipping,",
+    "new": "return net - shipping,",
+    "detecting_tests": 209,
+    "sha256": "7ec814227caa19dd643f348e0405932ea0c0cba5128548910260a8459d1e7ef5"
+  },
+  {
+    "id": "F18",
+    "description": "Pedido vazio",
+    "old": "raise ValueError(\"pedido vazio\")",
+    "new": "return (0, 0, 0, 0, 0)",
+    "detecting_tests": 1,
+    "sha256": "54035f712c20bd2a0a618e9fcfb620fe8caa33f3c9f1dac7046df121b874adfd"
+  }
+]

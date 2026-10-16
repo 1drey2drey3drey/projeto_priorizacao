@@ -1,0 +1,84 @@
+\begin{thebibliography}{}
+
+\bibitem[Ahmed et~al. 2022]{R10}
+Ahmed, F.~S., Majeed, A., Khan, T.~A., and Bhatti, S.~N. (2022).
+\newblock Value-based cost-cognizant test case prioritization for regression
+  testing.
+\newblock {\em PLOS ONE}, 17(5):e0264972.
+\newblock DOI: \url{https://doi.org/10.1371/journal.pone.0264972}.
+
+\bibitem[Chv{\'a}tal 1979]{R07}
+Chv{\'a}tal, V. (1979).
+\newblock A greedy heuristic for the set-covering problem.
+\newblock {\em Mathematics of Operations Research}, 4(3):233--235.
+\newblock DOI: \url{https://doi.org/10.1287/moor.4.3.233}.
+
+\bibitem[Di~Nardo et~al. 2015]{R06}
+Di~Nardo, D., Alshahwan, N., Briand, L., and Labiche, Y. (2015).
+\newblock Coverage-based regression test case selection, minimization and
+  prioritization: A case study on an industrial system.
+\newblock {\em Software Testing, Verification and Reliability}, 25(4):371--396.
+\newblock DOI: \url{https://doi.org/10.1002/stvr.1572}.
+
+\bibitem[Elbaum et~al. 2001]{R02}
+Elbaum, S., Malishevsky, A.~G., and Rothermel, G. (2001).
+\newblock Incorporating varying test costs and fault severities into test case
+  prioritization.
+\newblock In {\em Proceedings of the 23rd International Conference on Software
+  Engineering (ICSE)}, pages 329--338. IEEE.
+\newblock DOI: \url{https://doi.org/10.1109/ICSE.2001.919106}.
+
+\bibitem[Elbaum et~al. 2002]{R03}
+Elbaum, S., Malishevsky, A.~G., and Rothermel, G. (2002).
+\newblock Test case prioritization: A family of empirical studies.
+\newblock {\em IEEE Transactions on Software Engineering}, 28(2):159--182.
+\newblock DOI: \url{https://doi.org/10.1109/32.988497}.
+
+\bibitem[Inozemtseva and Holmes 2014]{R11}
+Inozemtseva, L. and Holmes, R. (2014).
+\newblock Coverage is not strongly correlated with test suite effectiveness.
+\newblock In {\em Proceedings of the 36th International Conference on Software
+  Engineering (ICSE)}, pages 435--445. ACM.
+\newblock DOI: \url{https://doi.org/10.1145/2568225.2568271}.
+
+\bibitem[Just et~al. 2014]{R12}
+Just, R., Jalali, D., Inozemtseva, L., Ernst, M.~D., Holmes, R., and Fraser, G.
+  (2014).
+\newblock Are mutants a valid substitute for real faults in software testing?
+\newblock In {\em Proceedings of the 22nd ACM SIGSOFT International Symposium
+  on Foundations of Software Engineering (FSE)}, pages 654--665. ACM.
+\newblock DOI: \url{https://doi.org/10.1145/2635868.2635929}.
+
+\bibitem[Li et~al. 2022]{R08}
+Li, F., Zhou, J., Li, Y., Hao, D., and Zhang, L. (2022).
+\newblock {AGA}: An accelerated greedy additional algorithm for test case
+  prioritization.
+\newblock {\em IEEE Transactions on Software Engineering}, 48(12):5102--5119.
+\newblock DOI: \url{https://doi.org/10.1109/TSE.2021.3137929}.
+
+\bibitem[Li et~al. 2007]{R04}
+Li, Z., Harman, M., and Hierons, R.~M. (2007).
+\newblock Search algorithms for regression test case prioritization.
+\newblock {\em IEEE Transactions on Software Engineering}, 33(4):225--237.
+\newblock DOI: \url{https://doi.org/10.1109/TSE.2007.38}.
+
+\bibitem[Rothermel et~al. 2001]{R01}
+Rothermel, G., Untch, R.~H., Chu, C., and Harrold, M.~J. (2001).
+\newblock Prioritizing test cases for regression testing.
+\newblock {\em IEEE Transactions on Software Engineering}, 27(10):929--948.
+\newblock DOI: \url{https://doi.org/10.1109/32.962562}.
+
+\bibitem[Walcott et~al. 2006]{R05}
+Walcott, K.~R., Soffa, M.~L., Kapfhammer, G.~M., and Roos, R.~S. (2006).
+\newblock {TimeAware} test suite prioritization.
+\newblock In {\em Proceedings of the International Symposium on Software
+  Testing and Analysis (ISSTA)}, pages 1--12. ACM.
+\newblock DOI: \url{https://doi.org/10.1145/1146238.1146240}.
+
+\bibitem[Zhang et~al. 2022]{R09}
+Zhang, Q., Fang, C., Sun, W., Yu, S., Xu, Y., and Liu, Y. (2022).
+\newblock Test case prioritization using partial attention.
+\newblock {\em Journal of Systems and Software}, 192:111419.
+\newblock DOI: \url{https://doi.org/10.1016/j.jss.2022.111419}.
+
+\end{thebibliography}

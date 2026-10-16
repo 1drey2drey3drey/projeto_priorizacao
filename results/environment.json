@@ -1,0 +1,30 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "cpu": "AMD EPYC 9V74 80-Core Processor",
+  "logical_cpus": 9,
+  "clock": {
+    "implementation": "clock_gettime(CLOCK_MONOTONIC)",
+    "monotonic": true,
+    "adjustable": false,
+    "resolution": 1e-09
+  },
+  "sizes": [
+    20,
+    40,
+    80,
+    160,
+    320
+  ],
+  "repetitions": 10,
+  "cost_batch": 50,
+  "cost_repetitions": 10,
+  "prioritizer_inner_repeats": 3,
+  "suite_cases": 567,
+  "faults": 18,
+  "covered_lines": 40,
+  "date_utc": "2026-10-15T21:15:45Z",
+  "elapsed_seconds": 11.525835945000381,
+  "source_sha256": "ff9ce6a4edea2097cb3e2bd8f374f56f904122dc639075c4655965f7dd2555fb",
+  "semantics": "Baseline coverage and costs measured; fault matrix obtained by real executions; order metrics simulated with additive baseline median costs; no CI/process startup/I-O modeled."
+}
